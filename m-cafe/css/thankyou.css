@@ -1,0 +1,29 @@
+@charset "UTF-8";
+#thankyou {
+    text-align: center;
+    
+}
+
+.thankyou-photo {
+    max-width: 100%;
+    
+}
+#thankyou h2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.thank_you {
+    margin-bottom: 3%;
+}
+
+.button a{
+    background-color:#4B2E16;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+.button a:hover {
+    background-color: white;
+    color: #4B2E16;
+    border: 2px solid #4B2E16;
+}

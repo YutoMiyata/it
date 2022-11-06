@@ -1,0 +1,68 @@
+@charset "UTF-8";
+.contact {
+    text-align: center;
+   
+}
+
+.title {
+    background-color:#4B2E16 ;
+    color: white;
+    opacity: .8;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+   
+}
+
+.contact div {
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+.contact.submit{
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    margin: 2rem;
+    
+}
+.submit  {
+    margin-top: 4%;
+}
+.submit-back {
+    margin-right: 10px;
+}
+.submit-front {
+    margin-left: 10px;
+}
+.submit a {
+    background-color: #4B2E16;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;   
+    border-radius: 5%;   
+}
+.submit a:hover {
+    background-color: white;
+    color: #4B2E16;
+    border: 2px solid #4B2E16;
+}
+
+
+
+#contact-error a {
+    background-color: #4B2E16;
+    color: white;
+    padding: .8rem;
+    margin: 1rem;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/*エラーが発生したとき*/
+#contact-error {
+    text-align: center;
+}

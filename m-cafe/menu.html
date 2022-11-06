@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+    <header class = "page-header">
+        <div><a href="index.html"><img class = "logo" src="photo/MiyaCafe.png" alt="miyacafe"></a></div>
+        <nav><ul class="main-nav">
+                <li><a href="index.html">TOP</a></li>
+                <li class="current"><a href="menu.html">MENU</a></li>
+                <li><a href="contact.php">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--横幅が800px以下のナビゲーションメニュー用-->
+    <div id = "openbtn"><span></span><span></span><span></span></div>
+    <nav id = "gnav">
+        <ul>
+            <li><a href="index.html">TOP</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="contact.php">CONTACT</a></li>
+        </ul>
+    </nav>
+    <div id = "circle-bg"></div>
+    <!--横幅が800px以下のナビゲーション終了-->
+
+    <div class = "header-main">
+        <div class = "menu-header">
+            <h2>MENU</h2>
+        </div>
+    
+        <div class = "grid-menu">
+            <div class = "grid-menu-para">
+                <p>楽しいひと時を</p>
+                <p>お過ごしください！！</p>
+            </div>
+            <div class="main-menu-img"><img src="photo/menu-main.png" alt=""></div>
+        </div>
+    </div>
+    <ul class="menu-head">
+        <li><a href="#drink">Drink</a></li>
+        <li><a href="#food">Food</a></li>
+        <li><a href="#desert">Desert</a></li>
+    </ul>
+      
+    
+    <div class = "drink menu-main" id = "drink" >
+        <h2>Drink</h2>
+        <div id = "drink-menu">
+            <div class = "drinkMain"></div>
+            <div class="drinkThumb"></div>
+        </div>
+
+    <div class = "food menu-main" id = "food" >
+        <h2>Food</h2>
+        <div id = "food-menu">
+            <div class="foodMain"></div>
+            <div class="foodThumb"></div>
+        </div>
+        
+
+            <div class = "desert menu-main" id = "desert" >
+                <h2>Desert</h2>
+                <div id = "desert-menu">
+                    <div class="desertMain"></div>
+                    <div class="desertThumb"></div>
+               
+    </div>
+    <!--ページトップ-->
+    <p id = "page-top"><a href="#">Page Top</a></p>
+    
+    <footer>
+        <div>
+            <p><small>&copy;2019 Miyacafe</small></p>
+        </div>
+    </footer>
+
+    <!--jQueryのコード-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src = "js/script.js"></script>
+    <script src = "js/menu.js"></script>
+</body>
+</html>

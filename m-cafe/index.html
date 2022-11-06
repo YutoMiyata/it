@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiyaCafe</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!--画面遷移-->
+    <div id = "splash">
+        <div id = "splash-logo">Now Loading</div>
+    </div>
+    <div class="splashbg1"></div>
+    <div class="splashbg2"></div>
+    <div id ="container">
+        <!--メイン-->
+        <header class = "page-header">
+            <div><a href="index.html"><img class = "logo" src="photo/MiyaCafe.png" alt="miyacafe"></a></div>
+            <nav>
+                <ul class="main-nav">
+                    <li class="current"><a href="index.html">TOP</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--横幅が800px以下のナビゲーションメニュー用-->
+        <div id = "openbtn"><span></span><span></span><span></span></div>
+        <nav id = "gnav">
+            <ul>
+                <li><a href="index.html">TOP</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="contact.php">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div id = "circle-bg"></div>
+        <!--横幅が800px以下のナビゲーション終了-->
+        
+        <div class="top-main">
+            <div class = "home-content wrapper">
+                <h2>FOR YOU</h2>
+                <p>とっておきの１日に</p>
+            </div>
+            <div><img src="photo/cafe-home.png" alt=""></div>
+        </div>
+        
+    
+        <div class = "menu">
+            <h2>MENU</h2>
+        </div>
+        <div class = "grid">
+            <div class="item">
+                <img src="photo/icecoffee.png" alt="menu1">
+            </div>
+            <div class="item">
+                <img src="photo/icetea.png" alt="menu1">
+            </div>
+            <div class="item">
+                <img src="photo/ice-cafe-ore.png" alt="menu1">
+            </div>
+            <div class="item">
+                <img src="photo/blended.png" alt="menu1">
+            </div>
+            <div class="item">
+                <img src="photo/american.png" alt="menu1">
+            </div>
+            <div class="item">
+                <img src="photo/hot-cafe-ore.png" alt="menu1">
+            </div>    
+        </div>
+        <div class = "button"><a href="menu.html" class = "btn bgleft"><span>メニューへ</span></a>
+        </div>
+        
+        
+    
+        <div class = "open-cafe">
+            <h2 >OPENING HOURS</h2>
+            <div class ="opening-grid" >
+                <div class = "time">
+                    <h3>Cafe Time</h3>
+                    <h3>8:00~17:00</h3>
+                </div>
+                <div><img src="photo/opencafe.png" alt="opencafe"></div>
+            </div>
+        </div>
+    
+        <div class = "bar-cafe">
+            <div class ="bar-grid" >
+                <div><img src="photo/open-bar.png" alt="opencafe"></div>
+                <div class = "time">
+                    <h3>Bar Time</h3>
+                    <h3>18:00~23:00</h3>
+                </div>            
+            </div>
+        </div>
+        <!--ページトップ-->
+        <p id = "page-top"><a href="#">Page Top</a></p>
+     
+        <footer>
+            <div>
+                <p><small>&copy;2019 Miyacafe</small></p>
+            </div>
+        </footer>
+    </div><!--メイン-->
+
+    
+    
+    <!--jQueryのコード-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src = "js/script.js"></script>
+</body>
+</html>
